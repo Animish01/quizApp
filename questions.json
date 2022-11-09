@@ -1,0 +1,24 @@
+[{
+    "question": "Choose the correct option related to Android-",
+    "choice1": "Android is a web browser.",
+    "choice2": "Android is an operating system.",
+    "choice3": "Android is a web server.",
+    "choice4": "None",
+    "answer": 2
+},
+{
+    "question": "Among the following options choose the one for which Android is based on Linux-",
+    "choice1": "Networking",
+    "choice2": "Portability",
+    "choice3": "Security",
+    "choice4": "All of the above",
+    "answer": 4
+},
+{
+    "question": "Among the below virtual machines choose the one which is used by the Android operating system-",
+    "choice1": "Dalvik operating system",
+    "choice2": "JVM",
+    "choice3": "Simple Virtual Machine",
+    "choice4": "None",
+    "answer": 1
+}]

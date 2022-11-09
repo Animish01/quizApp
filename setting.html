@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="home" class="flex-center flex-column">
+
+            <h1>Game mode</h1>
+
+            <div class="options-mode">
+
+                <div class="pick">
+
+                    <label for="category">Select genre: </label>
+                    <select name="Category" class="select" id="cat">
+                        <option value="9">General knowledge</option>
+                        <option value="10">Books</option>
+                        <option value="11">Movies</option>
+                        <option value="18">Computers</option>
+                        <option value="23">History</option>
+                        <option value="31">Anime and manga</option>
+                    </select>
+                </div>
+
+                <div class="pick">
+                    <label for="category">Select difficulty: </label>
+                    <select name="Diffuculty" class="select" id="diff">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- <a class="btn" href="/game.html">Play</a> -->
+            <a class="btn" id="save" onclick="save()" )>Save and back</a>
+        </div>
+
+    </div>
+
+
+    <script src="setting.js"></script>
+</body>
+
+</html>

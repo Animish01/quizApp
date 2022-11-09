@@ -1,0 +1,201 @@
+body {
+
+    background: linear-gradient(143deg, rgb(190 215 228) 0%, rgb(167 169 220) 100%);
+    /* background: radial-gradient(circle at 20% 21%, rgba(190, 215, 228, 1) 0%, rgba(167, 169, 220, 1) 100%); */
+}
+
+* {
+
+    box-sizing: border-box;
+    /* Size of box remains same even after adding borders. */
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(7 20 113);
+}
+
+h1 {
+
+    font-size: 2.7em;
+    margin-bottom: .8em;
+    color: #092582;
+}
+
+h3 {
+    font-size: 1.36em;
+    margin-bottom: .8em;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.container>* {
+
+    width: 100%;
+}
+
+.flex-column {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Things we might need later */
+
+.text-center {
+
+    text-align: center;
+}
+
+.justify-center {
+
+    justify-content: center;
+}
+
+.hidden {
+
+    display: none;
+}
+
+
+/* Buttons */
+
+.btn {
+
+    text-decoration: none;
+    border: .1em solid #003d80;
+    border-radius: .3em;
+    justify-content: center;
+    color: #003d80;
+    background-color: #FBFFFE;
+    text-align: center;
+    padding: .7em;
+    font-size: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.btn:hover {
+
+    cursor: pointer;
+    box-shadow: .14em .14em .5em rgba(11, 2, 66, 0.276);
+    transform: translateY(-0.05em);
+    transition: transform 100ms;
+}
+
+.btn[disabled]:hover {
+
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+/* End page CSS */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+
+    padding: .7em;
+    font-size: 1em;
+    width: 10em;
+    margin-bottom: .6em;
+    border: none;
+    box-shadow: 0 0.3em .9em 0 rgb(25 20 97 / 21%);
+    border-radius: .3em;
+    text-align: center;
+}
+
+
+/* High-score Page */
+
+#highScoreList {
+
+    list-style: decimal;
+    margin-bottom: 1.2em;
+    text-align: center;
+    padding-left: 1.1em;
+}
+
+.hs-list {
+
+    font-size: 1.1em;
+    margin-bottom: .5em;
+}
+
+.hs-list:hover {
+
+    transform: scale(1.04);
+}
+
+.options-mode {
+
+    margin-bottom: 1.5em;
+    width: 40em;
+}
+
+.select {
+
+    text-decoration: none;
+    border: .1em solid #003d80;
+    border-radius: .3em;
+    justify-content: center;
+    color: #003d80;
+    background-color: #FBFFFE;
+    text-align: center;
+    padding: .7em;
+    font-size: .85em;
+    width: 12em;
+    margin-bottom: 1em;
+}
+
+.pick {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pick select {
+    background-color: #fbfffe79;
+}
+
+.pick label {
+
+    font-size: 1.2em;
+}
+
+@media screen and (max-width:500px) {
+
+    body {
+        background: linear-gradient(143deg, rgb(190 215 228) 0%, rgb(167 169 220) 100%);
+    }
+
+    h1 {
+        font-style: italic;
+        margin-bottom: 1.6em;
+    }
+}
