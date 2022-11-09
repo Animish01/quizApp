@@ -125,7 +125,7 @@
 
     .option-container {
         font-size: .94em;
-        border-radius: 0 10px 10px 0;
+        border-radius: 10px 10px 10px 10px;
     }
 
     /* .choice-letter {
@@ -154,5 +154,6 @@
     .choice-letter {
 
         padding: .7em .86em;
+        border-radius: 7px 0px 0px 7px;
     }
 }
