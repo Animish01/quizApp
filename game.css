@@ -114,19 +114,24 @@
         overflow: hidden;
     }
 
+    #game {
+        padding: 0 1.7em;
+        padding-bottom: 1.5em;
+    }
+
     h3 {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .option-container {
-        font-size: .9em;
+        font-size: .94em;
         border-radius: 0 4px 4px 0;
     }
 
-    .choice-letter {
+    /* .choice-letter {
 
         border-radius: 4px 0 0 4px;
-    }
+    } */
 
     #progressBar {
 
@@ -141,13 +146,13 @@
         height: .96em;
     }
 
-    .option {
+    /* .option {
 
         padding: .34em .7em;
-    }
+    } */
 
-    .choice-letter {
+    /* .choice-letter {
 
         padding: .34em .7em;
-    }
+    } */
 }
