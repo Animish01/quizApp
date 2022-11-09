@@ -120,4 +120,27 @@
 
         border-radius: 4px 0 0 4px;
     }
+
+    #progressBar {
+
+        border: 0.15em solid rgb(0 61 128);
+        height: 1.3em;
+        margin-top: 0.75em;
+        width: 7.5em;
+    }
+
+    #progressBarFull {
+
+        height: .96em;
+    }
+
+    .option {
+
+        padding: .34em .7em;
+    }
+
+    .choice-letter {
+
+        padding: .34em .7em;
+    }
 }

@@ -194,8 +194,35 @@ input {
         background: linear-gradient(143deg, rgb(190 215 228) 0%, rgb(167 169 220) 100%);
     }
 
+    input {
+
+        width: 9.41em;
+    }
+
     h1 {
         font-style: italic;
         margin-bottom: 1.6em;
+    }
+
+    .pick {
+
+        flex-direction: column;
+    }
+
+    .select {
+
+        font-size: 0.78em;
+    }
+
+    .pick label {
+
+        font-size: .94em;
+        padding-bottom: .5em;
+    }
+
+    .btn {
+
+        font-size: .95em;
+
     }
 }
