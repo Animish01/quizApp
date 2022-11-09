@@ -119,13 +119,13 @@
         padding-bottom: 1.5em;
     }
 
-    h3 {
-        font-size: 1.1em;
+    #ques {
+        font-size: 1.2em;
     }
 
     .option-container {
         font-size: .94em;
-        border-radius: 0 4px 4px 0;
+        border-radius: 0 10px 10px 0;
     }
 
     /* .choice-letter {
@@ -146,13 +146,13 @@
         height: .96em;
     }
 
-    /* .option {
+    .option {
 
-        padding: .34em .7em;
-    } */
+        padding: .7em .8em;
+    }
 
-    /* .choice-letter {
+    .choice-letter {
 
-        padding: .34em .7em;
-    } */
+        padding: .7em .86em;
+    }
 }
