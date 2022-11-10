@@ -20,8 +20,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-const genre = localStorage.getItem("genre");
-const difficulty = localStorage.getItem("difficulty");
+let genre = localStorage.getItem("genre");
+let difficulty = localStorage.getItem("difficulty");
 console.log(genre);
 
 if (genre === null) {
@@ -120,6 +120,9 @@ getNewQuestion = () => {
     newQ = currentQuestion.question.replaceAll(`&#039;`, `'`);
     currentQuestion.question = newQ;
 
+    newQ = currentQuestion.question.replaceAll(`&rsquo;`, `'`);
+    currentQuestion.question = newQ;
+
     ques.innerText = currentQuestion.question;
 
     quesCountHTML.innerText = `Question ${questionCounter}/${max_q}`;
@@ -141,6 +144,9 @@ getNewQuestion = () => {
         question_option = opt;
 
         opt = question_option.replaceAll(`&#039;`, `'`);
+        question_option = opt;
+
+        opt = question_option.replaceAll(`&rsquo;`, `'`);
         question_option = opt;
 
         choice.innerText = question_option;
